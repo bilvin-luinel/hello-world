@@ -1,0 +1,11 @@
+.wrap{
+    width: 100%;
+}
+.mainImg {
+    width: 100%;
+}
+.logo {
+    width: 168px;
+    margin: 130px auto 50px;
+    display: block;
+}
