@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import ss from './Login.module.css'
+import img_main from '../../img/img.jpg'
 
 const Login = () => {
 
     const [test, setTest] = useState('apple')
 
-    // let test = 'banana'
-    // let test2 = 'apple'
-    // let test3 = 333
 
     const testFunction = (fruit) => {
         setTest(fruit)
@@ -16,19 +14,25 @@ const Login = () => {
         window.location.reload()
     }
 
+    const test2 = () => {
+        console.log('hello')
+    }
 
 
 
 
     return (
         <div className={ss.wrap}>
-            <h1 onClick={() => testFunction()}>{test}</h1>
+            {/* <h1 onClick={() => testFunction()}>{test}</h1> */}
             {/* <h1>{test2}</h1> */}
-            <div className={ss.mini}>
+            {/* <div className={ss.mini}>
                 <p onClick={() => testFunction('apple')}>apple로 바꾸기</p>
                 <p onClick={() => testFunction('banana')}>banana로 바꾸기</p>
                 <p onClick={() => testFunction('orange')}>orange로 바꾸기</p>
-            </div>
+            </div> */}
+            <h1>1</h1>
+            <h1>2</h1>
+            <h1>3</h1>
         </div>
     )
 }

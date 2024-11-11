@@ -13,7 +13,7 @@ const AppLayout = () => {
             <div className={ss.wrap}>
                 <div className={ss.lv1}>
                     <div className={ss.lv1_left}>
-                        <img className={ss.logo} src='https://gorgo.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/c0c7470f6e8a7a3bdbec2e750c326ff2.png' alt='' />
+                        <img className={ss.logo} src='https://gorgo.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/c0c7470f6e8a7a3bdbec2e750c326ff2.png' alt='' onClick={()=>window.location.href ='/'} />
                         <input className={ss.searchBox} type='text' />
                         <p>인기검색어</p>
                         <span>#공간</span>

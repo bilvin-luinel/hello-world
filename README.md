@@ -12,3 +12,7 @@ font-family: '~';
 
 text-decoration: underline;
 밑줄
+
+## 기타
+cursor: pointer;
+마우스 가져다 대면 클릭하고 싶게 마우스가 바뀜
