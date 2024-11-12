@@ -1,31 +1,37 @@
-.wrap{
+.wrap {
     width: 100%;
 }
+
 .mainImg {
     width: 100%;
 }
+
 .logo {
     width: 168px;
     margin: 130px auto 50px;
     display: block;
 }
+
 .circle_wrap {
     width: 1300px;
     height: 400px;
     /* border: 3px solid red; */
     margin: 0 auto;
 }
+
 .circle_wrap_1 {
     display: flex;
     margin: 0 auto;
     width: fit-content;
 }
-.circle_wrap_1>p{
+
+.circle_wrap_1>p {
     font-size: 20px;
     margin: 0 20px;
-    text-decoration: underline;
     cursor: pointer;
+    padding: 0 20px 10px;
 }
+
 .circle_wrap_2 {
     width: 100%;
     /* border: 2px solid blue; */
@@ -33,6 +39,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .circle_wrap_2>div {
     /* border: 1px solid red; */
     cursor: pointer;
@@ -45,6 +52,12 @@
     width: 170px;
     border-radius: 500px;
 }
+
 .circle_wrap_2>div>p {
     margin-top: 18px;
+}
+
+.tab_on {
+    border-bottom: 2px solid black;
+    font-weight: bold;
 }

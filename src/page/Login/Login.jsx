@@ -7,20 +7,6 @@ const Login = () => {
     const [test, setTest] = useState('apple')
 
 
-    const testFunction = (fruit) => {
-        setTest(fruit)
-        alert(`바꾼 과일의 이름은 ${fruit}입니다.`)
-        alert('바꾼 과일의 이름은' + fruit + '입니다.')
-        window.location.reload()
-    }
-
-    const test2 = () => {
-        console.log('hello')
-    }
-
-
-
-
     return (
         <div className={ss.wrap}>
             {/* <h1 onClick={() => testFunction()}>{test}</h1> */}
@@ -30,9 +16,10 @@ const Login = () => {
                 <p onClick={() => testFunction('banana')}>banana로 바꾸기</p>
                 <p onClick={() => testFunction('orange')}>orange로 바꾸기</p>
             </div> */}
-            <h1>1</h1>
-            <h1>2</h1>
+            <h1 onClick={()=>setTest('banana')}>1</h1>
+            <h1>setShowTable</h1>
             <h1>3</h1>
+            <h1>{test}</h1>
         </div>
     )
 }
