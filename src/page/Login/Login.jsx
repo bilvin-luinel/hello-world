@@ -9,18 +9,16 @@ const Login = () => {
 
     return (
         <div className={ss.wrap}>
-            {/* <h1 onClick={() => testFunction()}>{test}</h1> */}
-            {/* <h1>{test2}</h1> */}
-            {/* <div className={ss.mini}>
-                <p onClick={() => testFunction('apple')}>apple로 바꾸기</p>
-                <p onClick={() => testFunction('banana')}>banana로 바꾸기</p>
-                <p onClick={() => testFunction('orange')}>orange로 바꾸기</p>
-            </div> */}
-            <h1 onClick={()=>setTest('banana')}>1</h1>
-            <h1>setShowTable</h1>
-            <h1>3</h1>
-            <h1>{test}</h1>
+            <div className={ss.mini}>
+                <h1>기획전</h1>
+            </div>
+
+
+            {/* <img src='https://gorgo.kr/images/main-promotion-bn1.jpg' alt='' />
+            <h1 style={{ fontSize: '50px',marginBottom:'30px' }}>hello</h1>
+            <h3 style={{ fontSize: '50px' }}>world</h3> */}
         </div>
+
     )
 }
 

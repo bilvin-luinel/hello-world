@@ -16,6 +16,11 @@ text-decoration: underline;
 ## 기타
 cursor: pointer;
 마우스 가져다 대면 클릭하고 싶게 마우스가 바뀜
+background-image: url();
+요소의 배경 이미지 지정
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 
 ## 경계선 관련
 border: 1px solid red;
