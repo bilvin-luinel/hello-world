@@ -1,0 +1,38 @@
+.wrap {
+    width: 1440px;
+    /* height: 200px; */
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lv1 {
+    width: 240px;
+    height: 1000px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    background-color: red;
+    position: sticky;
+    top: 100px;
+}
+
+.lv2 {
+    width: 1150px;
+    height: 1700px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.lv2>div {
+    width: 90%;
+    height: 90%;
+    border: 1px solid red;
+    border-radius: 10px;
+    /* margin: 10px; */
+}
