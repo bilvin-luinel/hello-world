@@ -95,43 +95,107 @@ const Home = () => {
             <div className={ss.promotion_wrap}>
                 <h3>기획전</h3>
                 <div className={ss.promotion_mini}>
-
-
+                    <div>
+                        <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
+                        <div className={ss.promotion_lv2}>
+                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
+                            <h2>일본 인기도시 추천 호텔</h2>
+                        </div>
+                        <h3 className={ss.promotion_tag}>기획전</h3>
+                    </div>
 
                     <div>
-                        <div className={ss.promotion_lv1}>
-                            <h3 className={ss.promotion_tag}>기획전</h3>
-                        </div>
+                        <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
                         <div className={ss.promotion_lv2}>
                             <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
                             <h2>일본 인기도시 추천 호텔</h2>
                         </div>
+                        <h3 className={ss.promotion_tag}>기획전</h3>
+                    </div>
+
+                    <div>
+                        <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
+                        <div className={ss.promotion_lv2}>
+                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
+                            <h2>일본 인기도시 추천 호텔</h2>
+                        </div>
+                        <h3 className={ss.promotion_tag}>기획전</h3>
+                    </div>
+
+                    <div>
+                        <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
+                        <div className={ss.promotion_lv2}>
+                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
+                            <h2>일본 인기도시 추천 호텔</h2>
+                        </div>
+                        <h3 className={ss.promotion_tag}>기획전</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div className={ss.promotion_wrap}>
+                <h3>기획전</h3>
+                <div className={ss.promotion_mini}>
+                    <div>
+                        <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
+                        <div className={ss.promotion_lv2}>
+                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
+                            <h2>일본 인기도시 추천 호텔</h2>
+                        </div>
+                        <h3 className={ss.promotion_tag}>기획전</h3>
+                    </div>
+
+                    <div>
+                        <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
+                        <div className={ss.promotion_lv2}>
+                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
+                            <h2>일본 인기도시 추천 호텔</h2>
+                        </div>
+                        <h3 className={ss.promotion_tag}>기획전</h3>
+                    </div>
+
+                    <div>
+                        <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
+                        <div className={ss.promotion_lv2}>
+                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
+                            <h2>일본 인기도시 추천 호텔</h2>
+                        </div>
+                        <h3 className={ss.promotion_tag}>기획전</h3>
+                    </div>
+
+                    <div>
+                        <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
+                        <div className={ss.promotion_lv2}>
+                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
+                            <h2>일본 인기도시 추천 호텔</h2>
+                        </div>
+                        <h3 className={ss.promotion_tag}>기획전</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div className={ss.event_logo_wrap}>
+                <img src='https://gorgo.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/b646deec3236d3c7e9775290195bdb67.jpg' alt='' />
+                <img src='https://gorgo.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/fa64239080b3eb19617253091f78b005.jpg' alt='' />
+            </div>
+
+            <div className={ss.footer}>
+                <div>
+                    <div>
+
                     </div>
                     <div>
-                        <div className={ss.promotion_lv1} style={{ backgroundImage: 'url(https://gorgo.kr/images/main-promotion-bn2.jpg)' }}>
-                            <h3 className={ss.promotion_tag}>기획전</h3>
-                        </div>
-                        <div className={ss.promotion_lv2}>
-                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
-                            <h2>일본 인기도시 추천 호텔</h2>
-                        </div>
-                    </div><div>
-                        <div className={ss.promotion_lv1} style={{ backgroundImage: 'url(https://gorgo.kr/images/main-promotion-bn3.jpg)' }}>
-                            <h3 className={ss.promotion_tag}>기획전</h3>
-                        </div>
-                        <div className={ss.promotion_lv2}>
-                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
-                            <h2>일본 인기도시 추천 호텔</h2>
-                        </div>
-                    </div><div>
-                        <div className={ss.promotion_lv1} style={{ backgroundImage: 'url(https://gorgo.kr/images/main-promotion-bn4.jpg)' }}>
-                            <h3 className={ss.promotion_tag}>기획전</h3>
-                        </div>
-                        <div className={ss.promotion_lv2}>
-                            <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
-                            <h2>일본 인기도시 추천 호텔</h2>
-                        </div>
+
                     </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div>
+                    <img src='https://m-img.cafe24.com/images/bi/lguplus/660x94.jpg' alt='' />
+                </div>
+                <div>
+
                 </div>
             </div>
         </div>
