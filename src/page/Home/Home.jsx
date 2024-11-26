@@ -5,10 +5,11 @@ const Home = () => {
 
     const [tab, setTab] = useState(1)
 
-    // const array = [{ location: '후쿠오카', title: '일본 인기도시', url: 'https://gorgo.kr/images/main-promotion-bn1.jpg' },
-    // { location: '아시아태평양', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' },
-    // { location: '중화권', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' },
-    // { location: '베트남', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' },]
+    const array = [{ location: '오사카', title: '일본 인기도시', url: 'https://gorgo.kr/images/main-promotion-bn1.jpg' },
+    { location: '아시아태평양', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' },
+    { location: '중화권', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' },
+    { location: '베트남', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' }]
+
 
 
 
@@ -95,7 +96,19 @@ const Home = () => {
             <div className={ss.promotion_wrap}>
                 <h3>기획전</h3>
                 <div className={ss.promotion_mini}>
-                    <div>
+                    {array.map((item, idx) => (
+                        <div>
+                            <img className={ss.promotion_lv1} src={item.url} alt='' />
+                            <div className={ss.promotion_lv2}>
+                                <p>{item.location}</p>
+                                <h2>{item.title}</h2>
+                            </div>
+                            <h3 className={ss.promotion_tag}>기획전</h3>
+                        </div>
+                    ))}
+
+
+                    {/* <div>
                         <img className={ss.promotion_lv1} src='https://gorgo.kr/images/main-promotion-bn2.jpg' alt='' />
                         <div className={ss.promotion_lv2}>
                             <p>후쿠오카 / 홋카이도 / 오사카 / 교토 / 도쿄</p>
@@ -129,7 +142,7 @@ const Home = () => {
                             <h2>일본 인기도시 추천 호텔</h2>
                         </div>
                         <h3 className={ss.promotion_tag}>기획전</h3>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

@@ -1,22 +1,29 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ss from './Login.module.css'
-import img_main from '../../img/img.jpg'
 
 const Login = () => {
 
-    const [test, setTest] = useState('apple')
+
+    // const array = [{ name: 'john', age: 25, job: 'programmer' }, { name: '유제', age: 23, job: 'ceo' }, { name: 'maria', age: 34, job: 'woman' }, { name: 'jane', age: 40, job: '주부' }]
+    const array2 = [1, 2, 3, 4, 'apple', 999, 'banana']
 
 
     return (
         <div className={ss.wrap}>
-            <div className={ss.mini}>
-                <h1>기획전</h1>
-            </div>
+            <h1>{array2[0]}</h1>
+            <h1>{array2[1]}</h1>
+            <h1>{array2[2]}</h1>
+            <h1>{array2[3]}</h1>
+            <h1>{array2[4]}</h1>
+            <h1>{array2[5]}</h1>
+            <h1>{array2[6]}</h1>
 
+            {array2.map((item, idx) => (
+                <div>
+                    <h1>{item}</h1>
+                </div>
+            ))}
 
-            {/* <img src='https://gorgo.kr/images/main-promotion-bn1.jpg' alt='' />
-            <h1 style={{ fontSize: '50px',marginBottom:'30px' }}>hello</h1>
-            <h3 style={{ fontSize: '50px' }}>world</h3> */}
         </div>
 
     )
