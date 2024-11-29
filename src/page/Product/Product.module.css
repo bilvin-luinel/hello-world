@@ -20,19 +20,50 @@
 
 .lv2 {
     width: 1150px;
-    height: 1700px;
+    /* height: 1700px; */
     box-sizing: border-box;
     border: 1px solid red;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-.lv2>div {
-    width: 90%;
-    height: 90%;
+.card {
+    width: 280px;
+    height: 310px;
     border: 1px solid red;
-    border-radius: 10px;
-    /* margin: 10px; */
+    cursor: pointer;
+}
+.card>img {
+    width: 100%;
+}
+.card>h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.description1,.description2,.description3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card>p {
+    /* border: 1px solid #000; */
+    text-align: center;
+}
+
+.description1 {
+    color: #999999;
+    text-decoration: line-through;
+}
+.description2 {
+    margin: 0 12px;
+}
+.description3 {
+    color: red;
 }
