@@ -1,4 +1,4 @@
-# 자주 쓰이는 CSS 속성 정리
+# 자주 쓰이는 표현 정리
 
 ## 글자 관련
 font-size: ~px;
@@ -28,3 +28,7 @@ border: 1px solid red;
 
 border-radius: 10px;
 10px만큼 테두리를 둥글게
+
+## 표현 관련
+.toLocaleString() 을 붙이면 세 자리마다 쉼표를 찍어 줌
+Math.round() 괄호 안의 숫자를 반올림

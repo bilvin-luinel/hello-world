@@ -30,6 +30,16 @@ const Product = () => {
         },
     ]
 
+    const testArray = [
+        {
+            url: '',
+            title: '',
+            price1: 30000,
+            price2: 30000,
+        }
+    ]
+
+
     const target = 12323423456
     return (
         <div className={ss.wrap}>
@@ -46,6 +56,29 @@ const Product = () => {
                         </p>
                     </div>
                 ))}
+
+                {/* <div className={ss.card}>
+                    <img src={array[0].url} alt='' />
+                    <h3>{array[0].title}</h3>
+                    <p>
+                        <span className={ss.description1}>{array[0].price1.toLocaleString()}원</span>
+                        <span className={ss.description2}>{array[0].price2.toLocaleString()}원</span>
+                        <span className={ss.description3}>{Math.round(100 - (array[0].price2 / array[0].price1 * 100))}%</span>
+                    </p>
+                </div> */}
+
+                <div className={ss.card}>
+                    <img src={testArray[0].url} alt='' style={{ width: '100%' }} />
+                    <h3>{testArray[0].title}</h3>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <p style={{ textDecoration: 'line-through', color: 'gray' }}>{testArray[0].price1.toLocaleString()}</p>
+                        <p style={{ margin: '0 20px' }}>{testArray[0].price2}</p>
+                        <p style={{ color: 'red', fontWeight: 'bold', fontSize: '22px' }}>{Math.round(100 - (testArray[0].price2 / testArray[0].price1 * 100))}%</p>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
 .wrap {
     width: 1440px;
     /* height: 200px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     margin: 30px auto 0;
     display: flex;
@@ -22,7 +22,7 @@
     width: 1150px;
     /* height: 1700px; */
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
