@@ -28,6 +28,72 @@ const Product = () => {
             price1: 158000,
             price2: 95000,
         },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/f08ff8c57171644dd5a3ef0ec345b071.png',
+            title: '다이아윙스 고반발 국제공인구 M2 골프공(50구)',
+            price1: 158000,
+            price2: 95000
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/b34ff178f0b31312378e3023d6b38e14.png',
+            title: '다이아윙스 고반발 국제공인구 M2 골프공(30구)',
+            price1: 98000,
+            price2: 59000,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/b34ff178f0b31312378e3023d6b38e14.png',
+            title: '다이아윙스 고반발 국제공인구 M2 골프공(20구)',
+            price1: 80000,
+            price2: 49000,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/032314e3cdcc3e41d7b93a04568faa03.png',
+            title: '다이아윙스 고반발 국제공인구 M3 골프공 (20구)',
+            price1: 80000,
+            price2: 49000,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/f29f7a4b263acacb4f6c45b291e0cb51.png',
+            title: '다이아윙스 고반발 국제공인구 M5 골프공(20구)',
+            price1: 80000,
+            price2: 49000,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/4492e1b474162fbd36e2cc98c0a90d20.png',
+            title: '다이아윙스 고반발 국제공인구 M5 골프공(10구)',
+            price1: 40000,
+            price2: 26000,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/78eb96eb1057ec105ce55ea9b9630590.png',
+            title: '다이아윙스 고반발 국제공인구 M3 골프공 (10구)',
+            price1: 40000,
+            price2: 26000,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/b34ff178f0b31312378e3023d6b38e14.png',
+            title: '다이아윙스 고반발 국제공인구 M2 골프공(10구)',
+            price1: 40000,
+            price2: 26000,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/45839cc59e77bd27351b9289d9b7a87c.png',
+            title: '다이아윙스 고반발 국제공인구 M3 골프공 (1구)',
+            price1: 4000,
+            price2: 2500,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/d82ca28a6b6b4e6b7ae5711025164346.png',
+            title: '다이아윙스 고반발 국제공인구 M2 골프공(1구)',
+            price1: 4000,
+            price2: 2500,
+        },
+        {
+            url: 'https://gorgo.kr/web/product/medium/202408/35f983478aacb4b454c74228c06ce901.png',
+            title: '다이아윙스 고반발 국제공인구 M5 골프공(1구)',
+            price1: 4000,
+            price2: 2500,
+        },
     ]
 
     const testArray = [
