@@ -106,7 +106,6 @@ const Product = () => {
     ]
 
 
-    const target = 12323423456
     return (
         <div className={ss.wrap}>
             <div className={ss.lv1}></div>
