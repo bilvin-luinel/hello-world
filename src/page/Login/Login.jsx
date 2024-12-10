@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ss from './Login.module.css'
 
 const Login = () => {
@@ -8,13 +8,19 @@ const Login = () => {
     const array2 = ['watermelon', 'apple', 'grape', 'banana']
     const array3 = [{ name: 'john', age: 20 }, { name: 'amy', age: 21 }, { name: 'dominic', age: 22 }, { name: 'steven', age: 23 }, { name: 'youn', age: 24 }, { name: 'gui', age: 40 }]
 
+    const [color, setColor] = useState('')
+
+
     const obj = {
         name: 'amy',
         age: 25,
         hobby: 'game'
     }
 
-    console.log(obj.age)
+
+    useEffect(() => {
+        console.log('color : ', color)
+    }, [color])
 
 
 
@@ -29,15 +35,22 @@ const Login = () => {
             <h1>{array2[5]}</h1>
             <h1>{array2[6]}</h1> */}
 
-            {array3.map((item, idx) => (
-                <div key={idx} className={ss.card}>
-                    <h1>이름 : {item.name}</h1>
-                    <h2>나이 : {item.age}</h2>
-                </div>
-            ))}
+            <select className={ss.select_wrap} onChange={(e) => setColor(e.target.value)}>
+                <option value={''}>- [필수] 옵션을 선택해 주세요.</option>
+                <option value={'white'}>화이트</option>
+                <option value={'yellow'}>옐로우</option>
+                <option value={'orange'}>오렌지</option>
+            </select>
 
 
+            <h3 onClick={() => alert(color)}>클릭</h3>
 
+
+            <select>
+                <option>1번</option>
+                <option>2번</option>
+                <option>3번</option>
+            </select>
         </div>
 
     )
