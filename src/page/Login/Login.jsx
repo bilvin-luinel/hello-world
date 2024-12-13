@@ -26,7 +26,7 @@ const Login = () => {
 
 
     return (
-        <div className={ss.wrap}>
+        <div className={ss.wrap} style={{ position: 'relative' }}>
             {/* <h1>{array2[0]}</h1>
             <h1>{array2[1]}</h1>
             <h1>{array2[2]}</h1>
@@ -35,22 +35,21 @@ const Login = () => {
             <h1>{array2[5]}</h1>
             <h1>{array2[6]}</h1> */}
 
-            <select className={ss.select_wrap} onChange={(e) => setColor(e.target.value)}>
-                <option value={''}>- [필수] 옵션을 선택해 주세요.</option>
-                <option value={'white'}>화이트</option>
-                <option value={'yellow'}>옐로우</option>
-                <option value={'orange'}>오렌지</option>
-            </select>
-
-
-            <h3 onClick={() => alert(color)}>클릭</h3>
-
-
-            <select>
-                <option>1번</option>
-                <option>2번</option>
-                <option>3번</option>
-            </select>
+            <div style={{ border: '3px solid blue', width: '120px', height: '70px', margin: '20px 50px' }}>
+                hello1
+            </div>
+            <div style={{ border: '3px solid blue', width: '120px', height: '70px', margin: '20px 50px', position: 'absolute', bottom: '0px', right: '0px' }}>
+                hello2
+            </div>
+            <div style={{ border: '3px solid blue', width: '120px', height: '70px', margin: '20px 50px' }}>
+                hello3
+            </div>
+            <div style={{ border: '3px solid blue', width: '120px', height: '70px', margin: '20px 50px' }}>
+                hello4
+            </div>
+            <div style={{ border: '3px solid blue', width: '120px', height: '70px', margin: '20px 50px' }}>
+                hello5
+            </div>
         </div>
 
     )

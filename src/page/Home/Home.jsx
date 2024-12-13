@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ss from './Home.module.css'
 
 const Home = () => {
@@ -9,6 +9,10 @@ const Home = () => {
     { location: '아시아태평양', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' },
     { location: '중화권', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' },
     { location: '베트남', title: '포시즌스', url: 'https://gorgo.kr/images/main-promotion-bn2.jpg' }]
+
+    useEffect(()=>{
+        console.log('tab : ' , tab)
+    },[tab])
 
 
 
