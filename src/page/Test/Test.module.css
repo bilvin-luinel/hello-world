@@ -1,0 +1,87 @@
+.wrap {
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty {
+    /* margin: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 1px solid #000;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.lv1 {
+    display: flex;
+    margin: 20px 0 20px auto;
+}
+.lv1>input {
+   margin: 0 5px 0 20px;
+}
+
+.login_bt {
+    width: 400px;
+    height: 45px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.lv2 {
+    display: flex;
+    margin: 20px auto;
+}
+
+.lv2>p:nth-child(2) {
+    margin: 0 20px;
+}
+
+.lv3 {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 400px;
+    height: 42px;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.lv3>svg {
+    width: 25px;
+    position: absolute;
+    left: 10px;
+}
+
+.lv3:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.input_1 {
+    width: 400px;
+    height: 40px;
+    text-indent: 14px;
+    margin: 10px 0;
+}
+
+.input_1:focus {
+    outline: none;
+
+}

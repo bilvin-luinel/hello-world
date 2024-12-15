@@ -6,6 +6,7 @@ import AppLayout from './layout/AppLayout';
 import Mail from './page/Mail/Mail';
 import Product from './page/Product/Product';
 import ProductDetail from './page/ProductDetail/ProductDetail';
+import Test from './page/Test/Test';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='mail' element={<Mail />} />
           <Route path='product' element={<Product />} />
           <Route path='product-detail' element={<ProductDetail />} />
+          <Route path='test' element={<Test />} />
         </Route>
       </Routes>
     </div>
