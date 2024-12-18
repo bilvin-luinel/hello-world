@@ -4,130 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>유토피아 로스트볼</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/App.css" />
 </head>
 
 <body>
-    <!--@css(/_hdesign/css/header.css)-->
-    <!--@js(/_hdesign/js/header.js)-->
-    <!--@js(/_hdesign/js/category.js)-->
-    <!--@css(/_hdesign/css/search_modal.css)-->
-    <!--@js(/_hdesign/js/all_category.js)-->
-
-
-    <header id="header">
-        <div class="h_wrap raul-bg-white">
-            <div class="h_container ">
-                <div class="h_content">
-                    <!--@import(/_hdesign/header/top_banner.html)-->
-                    <div class="h_mid width1440 padding-lr">
-                        <div class="h_l">
-                            <div class="h_logo">
-                                <h1 module="Layout_LogoTop" df-banner-code="logo" hidden><a href="/index.html"
-                                        target="{#target}" df-banner-clone>{#item}</a></h1>
-                            </div>
-                            <div class="h_search">
-                                <!-- 검색창 -->
-                                <!--@import(/_hdesign/header/search.html)-->
-                                <!-- 검색창 -->
-                            </div>
-                        </div>
-                        <div class="h_r">
-                            <div class="mo_bar"><!--@import(/_hdesign/svg/mo_bar.html)--></div>
-                            <div class="h_account">
-                                <ul class="" module="Layout_statelogoff">
-                                    <li><a href="/member/login.html" class=""><!--@import(/_hdesign/svg/people.html)-->
-                                            <p>로그인</p>
-                                        </a></li>
-                                    <li><a href="/myshop/order/list.html"
-                                            class=""><!--@import(/_hdesign/svg/order.html)-->
-                                            <p>주문조회</p>
-                                        </a></li>
-                                    <li><a href="/order/basket.html"
-                                            class=""><!--@import(/_hdesign/svg/cart.html)--><span
-                                                class="{$basket_count_class}">{$basket_count}</span>
-                                            <p>장바구니</p>
-                                        </a></li>
-
-                                </ul>
-                                <ul class="" module="Layout_stateLogon">
-                                    <li><a href="{$action_logout}" class=""><!--@import(/_hdesign/svg/logout.html)-->
-                                            <p>로그아웃</p>
-                                        </a></li>
-                                    <li><a href="/myshop/order/list.html"
-                                            class=""><!--@import(/_hdesign/svg/order.html)-->
-                                            <p>주문조회</p>
-                                        </a></li>
-                                    <li><a href="/myshop/index.html" class=""><!--@import(/_hdesign/svg/people.html)-->
-                                            <p>마이페이지</p>
-                                        </a></li>
-                                    <li><a href="/order/basket.html"
-                                            class=""><!--@import(/_hdesign/svg/cart.html)--><span
-                                                class="{$basket_count_class}">{$basket_count}</span>
-                                            <p>장바구니</p>
-                                        </a></li>
-
-
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h_bot width1440 padding-lr">
-                        <!--  -->
-                        <div class="h_shop">
-                            <div class="h_logo_act">
-                                <div module="Layout_LogoTop" df-banner-code="logo" hidden><a href="/index.html"
-                                        target="{#target}" df-banner-clone>{#item}</a></div>
-                            </div>
-
-                            <!-- start - 전체메뉴 -->
-                            <!-- div class="h_allcate">--@import(/_hdesign/svg/mo_bar.html)--전체메뉴</div-->
-                            <!-- end - 전체메뉴 -->
-
-                            <!-- start - shop -->
-                            <div class="h_category ">
-                                <div module="Layout_category" class="SCateAll_0" id="category">
-                                    <ul id="SCateAll_1">
-                                        <li class="Scate_li"><a href="https://welfare.plusn.co.kr/gorgo" target='_blank'
-                                                class="">국내숙박</a></li>
-                                        <li class="Scate_li"><a href="https://staynmore.com/?sitecd=S1063"
-                                                target='_blank' class="">해외호텔</a></li>
-                                        <li class="Scate_li"><a href="/{$design_page_url}{$param}" class="">{$name}</a>
-                                        </li>
-                                        <li class="Scate_li"><a href="/{$design_page_url}{$param}" class="">{$name}</a>
-                                        </li>
-                                        <li class="Scate_li"><a href="/{$design_page_url}{$param}" class="">{$name}</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- end - shop -->
-                        </div>
-                        <!--  -->
-                        <div class="h_board">
-                            <div module="Layout_BoardInfo" class="">
-                                <ul>
-                                    <!--<li><a href="/shopinfo/about/about.html" class="">회사소개</a></li>-->
-                                    <li style="display: none;"><a href="{$board_list_url}" class="">{$board_name}</a>
-                                        {$board_adult_icon}</li>
-                                    <li><a href="{$board_list_url}" class="">{$board_name}</a> {$board_adult_icon}</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="wrap">
+        <li class="trigger">
+            <p>menu1</p>
+            <div class="hidden_wrap">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
             </div>
-            <!--@import(/_hdesign/header/category.html)-->
-        </div>
+        </li>
+        <li class="trigger">
+            <p>menu2</p>
+            <div class="hidden_wrap">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+            </div>
+        </li>
+        <li class="trigger">
+            <p>menu3</p>
+            <div class="hidden_wrap">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+            </div>
+        </li>
+        <li class="trigger">
+            <p>menu4</p>
+            <div class="hidden_wrap">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+            </div>
+        </li>
 
-
-    </header>
-
-    <!--@import(/_hdesign/header/aside.html)-->
-
-
+    </div>
 </body>
 
 </html>
